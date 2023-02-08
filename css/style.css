@@ -59,6 +59,24 @@
 }
 
 /*This image is supposed to be responsive*/
+.star-fleet-container {
+    background-color: #e5e5e5;
+    float: left;
+    width: 40%;
+    padding: 0 20px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.nanami-container {
+    float: left;
+    width: 40%;
+    padding: 0 20px;
+    background-color: #e5e5e5;
+    margin: 10px;
+    height: 100%;
+}
+
 .star-fleet {
     width: 100%;
     height: auto;
