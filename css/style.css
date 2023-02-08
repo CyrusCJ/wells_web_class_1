@@ -58,7 +58,11 @@
     }
 }
 
-
+/*This image is supposed to be responsive*/
+.star-fleet {
+    width: 100%;
+    height: auto;
+}
 
 #topSection {
     background-color: blue;
