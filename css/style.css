@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+.menu {
+    float: left;
+    width: 10%;
+    text-align: center;
+    display: grid;
+}
+
+.menu a {
+    background-color: #e5e5e5;
+    padding: 8px;
+    margin-top: 7px;
+    display: black;
+    width: 100%;
+    color: black;
+}
+
+.main {
+    float: left;
+    width: 28%;
+    padding: 0 20px;
+    background-color: #e5e5e5;
+    margin: 5px;
+    height: 100%;
+}
+
+.right {
+    background-color: #e5e5e5;
+    float: left;
+    width: 60%;
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+    display: flex;
+}
+
+.innerRight {
+    float: left;
+    margin: 5px;
+    background-color: #fff;
+    width: 50%;
+}
+
+@media only screen and (max-width:620px) {
+
+    /* for mobile phone: */
+    .menu,
+    .main {
+        width: 100%;
+    }
+
+    .right {
+        width: 100%;
+        display: grid;
+    }
+}
+
+
+
+#topSection {
+    background-color: blue;
+    font-size: 10px;
+}
+
+.topSectionBold {
+    font-size: 20px;
+}
